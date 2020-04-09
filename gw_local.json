@@ -1,0 +1,78 @@
+{
+    "version": {
+        "gateway_model": "IOCA-1701",
+        "firmware_version": "1.0.0",
+        "setting_version": "1.0.0",
+        "monitor_version": "1.0.0",
+        "ns_version": "1.0.0",
+        "Theft_flag": 0
+    },
+    "env": {
+        "temperture": 39.521248,
+        "humidity": 8.131533
+    },
+    "lora": {
+        "radio1_freq": 0,
+        "radio2_freq": 1,
+        "radio1_state": 0,
+        "radio2_state": 1
+    },
+    "system_info": {
+        "mem_use": 47976,
+        "mem_total": 245000,
+        "disk_free": 2109028,
+        "disk_total": 3030800,
+        "run_time": 4
+    },
+    "gps": {
+        "latitude": 0,
+        "longitude": 0,
+        "satellite": 0,
+        "hori_divisor": 0,
+        "vert_divisor": 0,
+        "altitude": 0
+    },
+    "lte": {
+        "lte_mode": 1,
+        "lte_apn": "cmnet",
+        "lte_account": "admin",
+        "lte_password": "12345678",
+        "lte_dail": "*99#",
+        "lte_csq": "12,99",
+        "lte_rdl": 0
+    },
+    "wifi": {
+        "wifi_mode": 1,
+        "wifi_name": "WI_Route",
+        "wifi_pwd": "12345678",
+        "wifi_host": "192.168.123.1",
+        "wifi_netmask": "255.255.255.0",
+        "wifi_start_ip": "192.168.123.2",
+        "wifi_end_ip": "192.168.123.10"
+    },
+    "ethernet": {
+        "ethernet_mode": 0,
+        "ethernet_ip": "192.168.1.100",
+        "ethernet_netmask": "255.255.255.0",
+        "ethernet_gateway": "192.168.1.1",
+        "ethernet_account": "PPPOE Account",
+        "ethernet_pwd": "PPPOE Password",
+        "ethernet_rdl": 0
+    },
+    "power": {
+        "voltage": 0,
+        "power_current": 0,
+        "power_mode": 0,
+        "charge_current": 0
+    },
+    "ns": {
+        "ns_mode": 0,
+        "ns_server_ip": "123.207.166.46"
+    },
+    "netstates": {
+        "lte_state": 1,
+        "wifi_state": 1,
+        "ethernet_state": 0,
+        "net_test_addr": "123.207.166.46"
+    }
+}
